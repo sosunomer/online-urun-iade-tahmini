@@ -2,6 +2,40 @@
 
 Bu proje, online alışveriş verilerini kullanarak ürün iadelerini tahmin eden bir makine öğrenmesi uygulamasıdır.
 
+## Veri Analizi
+
+### Detaylı İade Analizi
+![Detaylı İade Analizi](detayli_analiz.png)
+
+Bu görsel şunları gösterir:
+- İade oranı dağılımı
+- Günlere göre iade ve fiyat dağılımı
+- Saatlere göre iade dağılımı
+- Aylara göre iade dağılımı
+- Ülkelere göre iade oranı
+- Fiyata göre iade dağılımı
+
+## Model Sonuçları
+
+### Karmaşıklık Matrisleri
+
+#### Logistic Regression
+![Logistic Regression Karmaşıklık Matrisi](confusion_matrix_logistic_regression.png)
+
+#### Random Forest
+![Random Forest Karmaşıklık Matrisi](confusion_matrix_random_forest.png)
+
+#### Decision Tree
+![Decision Tree Karmaşıklık Matrisi](confusion_matrix_decision_tree.png)
+
+### Özellik Önemliliği Analizi
+
+#### Random Forest Özellik Önemliliği
+![Random Forest Özellik Önemliliği](feature_importance_random_forest.png)
+
+#### Gradient Boosting Özellik Önemliliği
+![Gradient Boosting Özellik Önemliliği](feature_importance_gradient_boosting.png)
+
 ## Özellikler
 
 - 6 farklı makine öğrenmesi algoritması kullanılmıştır:
